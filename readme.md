@@ -8,7 +8,7 @@
 
 
 ## 📝 Descrição
-Projeto interativo desenvolvido como resposta criativa ao processo seletivo, respondendo as respostas de uma forma mais criativa.
+Projeto interativo desenvolvido como resposta criativa ao questionário do processo seletivo.
 
 ## ✨ Funcionalidades
 - **Carrossel interativo** de lideranças admiradas
