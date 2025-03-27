@@ -8,10 +8,7 @@
 
 
 ## 📝 Descrição
-Projeto interativo desenvolvido como resposta criativa ao processo seletivo da GPM. Um site portfólio que:
-- Apresenta minhas referências técnicas e profissionais
-- Demonstra habilidades front-end na prática
-- Responde ao questionário de forma inovadora
+Projeto interativo desenvolvido como resposta criativa ao processo seletivo, respondendo as respostas de uma forma mais criativa.
 
 ## ✨ Funcionalidades
 - **Carrossel interativo** de lideranças admiradas
