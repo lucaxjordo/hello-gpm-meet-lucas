@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidato Lucas Vinícius de Oliveira</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="profile">
+            <img src="assets/myself.jpeg" alt="Minha Foto" class="profile-img">
+            <span class="profile-name">Lucas Oliveira</span>
+        </div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu de navegação">
+            <div class="hamburger"></div>
+        </button>
+    </header>
+
+    <nav class="sidebar" id="sidebar" aria-label="Menu de navegação principal">
+        <ul>
+            <li><a href="#home" aria-label="Ir para a seção Home">Home</a></li>
+            <li><a href="#leaders" aria-label="Ir para a seção Lideranças">Lideranças</a></li>
+            <li><a href="#projects" aria-label="Ir para a seção Projetos">Canais do youtube</a></li>
+            <li><a href="#references" aria-label="Ir para a seção Empresas Referências">Empresas Referências</a></li>
+            <li><a href="#contact" aria-label="Ir para a seção Contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <main>
+        <section id="home" class="section">
+            <h1>Olá, Cassia! Tudo bem?</h1>
+            <p>Agradeço a oportunidade de dizer um pouquinho mais sobre mim!</p>
+            <p>Desenvolvi essa página especialmente pra você ter uma experiência mais legal nessa etapa do questionário.</p>
+            <br>
+            <div class="vamos-la-container">
+                <h3 class="vamos-la-text">Vamos lá?</h3>
+                <div class="icon-space">
+                    <img src="assets/icons8-hand-down-48.png" alt="Seta para baixo" class="custom-icon">
+                </div>
+            </div>
+        </section>
+
+        <section id="leaders" class="section">
+            <h2>Lideranças técnicas e de soft Skills que admiro!</h2>
+            
+            <div class="slider" aria-label="Carrossel de lideranças que admiro">
+                <div class="item">
+                    <h3>Margaret Hamilton</h3>
+                    <img src="assets/margaret-hamilton.jpg" alt="Foto de Margaret Hamilton">
+                    <a href="https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)" target="_blank" class="learn-more" aria-label="Saiba mais sobre Hamilton">Saiba mais</a>
+                </div>
+
+                <div class="item">
+                    <h3>Linus Torvalds</h3>
+                    <img src="assets/linus.jpg" alt="Foto de Linus Torvalds">
+                    <a href="https://en.wikipedia.org/wiki/Linus_Torvalds" target="_blank" class="learn-more" aria-label="Saiba mais sobre Linus Torvald">Saiba mais</a>
+                </div>
+
+                <div class="item">
+                    <h3>Loiane Groner</h3>
+                    <img src="assets/loiane-groner.png" alt="Foto de Loiane Groner">
+                    <a href="https://www.linkedin.com/in/loiane/" target="_blank" class="learn-more" aria-label="Saiba mais sobre Loiane Groner">Saiba mais</a>
+                </div>
+
+                <div class="item">
+                    <h3>Luiza Helena Trajano</h3>
+                    <img src="assets/Magazine_Luiza_Luiza_Helena_Trajano.jpg" alt="Foto de Luiza Trajano">
+                    <a href="https://pt.wikipedia.org/wiki/Luiza_Trajano" target="_blank" class="learn-more" aria-label="Saiba mais sobre Nome Líder 4">Saiba mais</a>
+                </div>
+
+                <div class="item">
+                    <h3>Usain Bolt</h3>
+                    <img src="assets/Usain_Bolt.jpg" alt="Foto de Usain Bolt">
+                    <a href="https://dtp.wikipedia.org/wiki/Usain_Bolt" target="_blank" class="learn-more" aria-label="Saiba mais sobre Usain Bolt">Saiba mais</a>
+                </div>
+
+                <button id="prev" aria-label="Anterior"><</button>
+                <button id="next" aria-label="Próximo">></button>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Meus canais no YouTube favoritos</h2>
+            
+            <div class="projects-container">
+                <div class="project-box">
+                    <h3>Vox</h3>
+                    <p>Produz conteúdos informativos e explicativos sobre uma ampla variedade de tópicos, 
+                        incluindo ciência, cultura, economia e... sim, tecnologia!</p>
+                    <a href="https://www.youtube.com/@Vox" target="_blank" class="learn-more" aria-label="Saiba mais sobre o canal da Vox">Visite o canal</a>
+                </div>
+
+                <div class="project-box">
+                    <h3>Phillip Choi</h3>
+                    <p>Phillip compartilha seu dia a dia como desenvolvedor sênior, abordando temas técnicos e comportamentais em seus vlogs diários.</p>
+                    <a href="https://www.youtube.com/@letphil" target="_blank" class="learn-more" aria-label="Saiba mais sobre o canal de Phillip">Visite o Canal</a>
+                </div>
+
+                <div class="project-box">
+                    <h3>Helaine Zhao</h3>
+                    <p>Helaine compartilha sua rotina diária e de estudos, enquanto é estudante em Harvard, oferecendo insights sobre sua vida acadêmica e produtiva.</p>
+                    <a href="https://www.youtube.com/@HelaineZhao" target="_blank" class="learn-more" aria-label="Saiba mais sobre o canal da Vox">Visite o Canal</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="references" class="section">
+            <h2>Empresas tech referências</h2>
+            
+            <div class="brands-container">
+                <div class="brand-item">
+                    <img src="assets/Twilio-Logo.wine.png" alt="Logo Twilio">
+                    <h3>Twilio Inc.</h3>
+                    <p>A Twilio é uma plataforma de comunicação em nuvem que oferece APIs para integrar mensagens, chamadas e notificações em 
+                        aplicativos. Ela facilita a criação de soluções de comunicação escaláveis para empresas de diversos setores.</p>
+                </div>
+
+                <div class="brand-item">
+                    <img src="assets/pngwing.com.png" alt="logo Microsoft">
+                    <h3>Microsoft Corporation</h3>
+                    <p>A Microsoft é uma gigante global de tecnologia, conhecida por seus sistemas operacionais Windows, software como o 
+                        Microsoft Office e soluções de nuvem através do Azure. Ela também é líder em desenvolvimento de software, inteligência artificial e hardware</p>
+                </div>
+
+            
+            </div>
+
+            <div class="brands-disclaimer">
+                <p>Disclaimer: Por conter dados sensíveis de terceiros, as informações das referências estão no anexo do email.</p>
+            </div>
+        </section>
+
+        <section class="footer-trigger" id="footerTrigger"></section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
