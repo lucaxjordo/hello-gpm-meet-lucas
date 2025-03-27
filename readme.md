@@ -41,4 +41,4 @@ git clone https://github.com/seu-usuario/meet-lucas.git
 
 ## 🌐 Acesso Online
 
-Disponível em: https://seu-site.com/meet-lucas
+Disponível em: https://meet-lucas.vercel.app/
