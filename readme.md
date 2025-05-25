@@ -32,7 +32,7 @@ Projeto interativo desenvolvido como resposta criativa ao questionário do proce
 1\. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/meet-lucas.git
+git clone https://github.com/lucaxjordo/hello-gpm-meet-lucas.git
 ````
 
 2\. Abra o arquivo index.html no navegador.
